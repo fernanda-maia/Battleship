@@ -1,0 +1,34 @@
+@media only screen and (max-width: 720px) {
+    .main-header > h1 {
+        font-size: 4rem;
+    }
+
+}
+
+@media only screen and (max-width: 1024px) {
+    .top-banner {
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    .top-banner > img {
+        margin-top: 2rem;
+        width: 100%;
+    }
+    
+    .text {
+        width: 100%;
+    }
+    
+    h2 {
+        font-size: 2.9rem;
+    }
+
+    h3 {
+        font-size: 2rem;
+    }
+    ol, ul{
+        width: 80%;
+      
+    }
+}
